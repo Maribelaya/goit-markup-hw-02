@@ -22,14 +22,13 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.17;
-letter-spacing: 0.54px;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
 .header-navigation-logo-blue {
 color:  #2E2F42;
 }
-
 
 .header-address-list {
 color:  #2E2F42;
@@ -45,6 +44,10 @@ color:#404bbf;
 }
 .header-address-list:focus {
 color:#404bbf;
+}
+
+.title {
+background-color: #2e2f42;
 }
 
 .title-header {
@@ -114,6 +117,10 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
+
+.portfolio {
+background-color: #F4F4FD ;
+}
 .portfolio-title {
 color:#2E2F42;
 text-align: center;
@@ -122,6 +129,9 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11; 
 letter-spacing: 0.72px;
+}
+.portfolio-submenu {
+background-color-: #FFFFFF;
 }
 .portfolio-picture-name {
 color: #2E2F42;
@@ -142,19 +152,24 @@ letter-spacing: 0.32px;
 background-color:#2e2f42;
 }
 
+.footer-logo-web {
+color: #4D5AE5;
+}
+
 .footer-logo {
-color: #F4F4FD;
+color:  #4D5AE5;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.17;
-letter-spacing: 0.54px;
-}
-.footer-logo-web {
-color: #4D5AE5;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
+.footer-logo-blue {
+color:  #2E2F42;
+}
 .footer-text {
 color:#F4F4FD;
 font-size: 16px;
