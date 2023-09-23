@@ -50,14 +50,14 @@ color:#404bbf;
 font-style: normal;
 }
 
-.header-address {
+.header-contact {
 font-style: normal;
 }
-.header-address-item {
+.header-menu-contact {
 font-style: normal;
 }
 
-.header-address-list {
+.header-menu-contact {
 color:  #434455;
 font-size: 16px;
 font-weight: 500;
@@ -66,10 +66,11 @@ letter-spacing: 0.02em;
 font-style: normal;
 }
 
-.header-address-list:hover {
+.header-menu-contact:hover{
 color:#404bbf;
 }
-.header-address-list:focus {
+
+.header-menu-contact:focus {
 color:#404bbf;
 }
 
