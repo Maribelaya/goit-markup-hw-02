@@ -29,8 +29,9 @@ text-transform: uppercase;
 .header-navigation-logo {
 color:  #2E2F42;
 }
+
 .header-menu-list {
-color: #2E2F42;
+color: #434455;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
@@ -50,14 +51,14 @@ color:#404bbf;
 font-style: normal;
 }
 
-.header-contact {
+.header-address {
 font-style: normal;
 }
-.header-menu-contact {
+.header-menu-address {
 font-style: normal;
 }
 
-.header-menu-contact {
+.header-address-list {
 color:  #434455;
 font-size: 16px;
 font-weight: 500;
@@ -66,11 +67,11 @@ letter-spacing: 0.02em;
 font-style: normal;
 }
 
-.header-menu-contact:hover{
+.header-address-list:hover {
 color:#404bbf;
 }
 
-.header-menu-contact:focus {
+.header-address-list:focus {
 color:#404bbf;
 }
 
@@ -169,7 +170,7 @@ letter-spacing: 0.72px;
 }
 
 .portfolio-submenu {
-background-color-: #FFFFFF;
+background-color: #FFFFFF;
 }
 
 .portfolio-picture-name {
