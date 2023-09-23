@@ -1,4 +1,5 @@
 body {
+color: #434455;
 background: #FFF;
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
@@ -16,11 +17,11 @@ text-decoration: none;
 
 .header-navigation-logo {
 color:  #2E2F42;
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
@@ -30,11 +31,19 @@ color: #4D5AE5;
 }
 
 .header-address-list {
-color: #434455;
+color:  #2E2F42;
 font-size: 16px;
-font-weight: 400;
+font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
+font-style: normal;
+}
+
+.header-address-list:hover {
+color:#404bbf;
+}
+.header-address-list:focus {
+color:#404bbf;
 }
 
 .title-header {
@@ -44,15 +53,23 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 1.12px;
+background-color:#2e2f42;
 }
 .title-header-btn {
 color: #FFF;
 font-family: inherit;
+background-color: #4D5AE5;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
 cursor: pointer;
+}
+.title-header-btn:hover {
+background-color: #404BBF;
+}
+.title-header-btn:focus {
+background-color: #404BBF;
 }
 
 .description-title {
@@ -69,13 +86,19 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
+.team {
+background-color: #FFFFFF;
+}
 .team-title {
 color: #2E2F42;
+text-align: center; 
+text-transform: capitalize;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11; 
-letter-spacing: 0.72px;
+letter-spacing: 0.02em;
 }
+
 .team-name {
 color: #2E2F42;
 font-size: 20px;
@@ -92,6 +115,8 @@ letter-spacing: 0.32px;
 }
 .portfolio-title {
 color:#2E2F42;
+text-align: center;
+text-transform: capitalize;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11; 
@@ -111,13 +136,18 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.32px;
 }
+
+.footer {
+background-color:#2e2f42;
+}
+
 .footer-logo {
 color: #F4F4FD;
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.54px;
 }
 .footer-logo-web {
@@ -128,6 +158,7 @@ color: #4D5AE5;
 color:#F4F4FD;
 font-size: 16px;
 font-weight: 400;
+text-transform: uppercase;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
